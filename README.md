@@ -73,7 +73,7 @@ run `python MultiAgentProfiling/profile` to create the plot.
 |:--:|
 |<img src="/MultiAgentProfiling/data/agents_merged Training Profile.png" width="800">|
 
-While all models in the end achieve the same training performance, one can tell that the models trained with sample injection converge faster in the beginning until ~ Episode 110. This looks promising for environments which are harder to solve with a bigger action and observation space, so that algorithms which are "sample injected" might find high rewarding actions faster. 
+While all models in the end achieve the same training performance, one can tell that the models trained with sample injection converge faster in the beginning until ~ Episode 110. Injected episodes are not taken into account for this result plot. This looks promising for environments which are harder to solve with a bigger action and observation space, so that algorithms which are "sample injected" might find high rewarding actions faster. 
 
 
 # TODO:
