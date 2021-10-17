@@ -1,12 +1,12 @@
 # Sample Injection for Reinforcement Learning evaluation
 
-This repository aims to analyse if the method called "Sample Injection for Reinforcement Learning" proposed in the paper "[Towards generating complex programs represented as node-trees with reinforcement learning](https://github.com/Johannes0Horn/RL_sample_injection/blob/main/Towards%20generating%20complex%20programs%20represented%20as%20node-trees%20with%20reinforcement%20learning.pdf)" in general can be helpful for different reinforcement learning algorithms and evirironments to achieve better and/or faster results.
+This repository aims to analyse if the method called "Sample Injection for Reinforcement Learning" proposed in the paper "[Towards generating complex programs represented as node-trees with reinforcement learning](https://github.com/Johannes0Horn/RL_sample_injection/blob/main/Towards%20generating%20complex%20programs%20represented%20as%20node-trees%20with%20reinforcement%20learning.pdf)", in general can be helpful for different reinforcement learning algorithms and evironments to achieve better and/or faster results.
 
 # Done:
 
 ## Test sample injection on a state of the art reinforcement algorithm in an easy environment:
 
-To do so, the best performing algorithm([TD3](https://www.researchgate.net/profile/Wenfeng-Zheng/publication/341648433_Twin-Delayed_DDPG_A_Deep_Reinforcement_Learning_Technique_to_Model_a_Continuous_Movement_of_an_Intelligent_Robot_Agent/links/5ed9ae3e92851c9c5e816d19/Twin-Delayed-DDPG-A-Deep-Reinforcement-Learning-Technique-to-Model-a-Continuous-Movement-of-an-Intelligent-Robot-Agent.pdf)) according to the [OpenAI gym Leaderboard](https://github.com/openai/gym/wiki/Leaderboard) for the OpenAI gym Environment ["Pendulum-v0"](https://gym.openai.com/envs/Pendulum-v0/) implemented by [Kanishk Navale](https://github.com/KanishkNavale) in a Multi Agent-manner, was bugfixed and modified: [Cooperative-Deep-RL-Multi-Agents](https://github.com/KanishkNavale/Cooperative-Deep-RL-Multi-Agents).
+To do so, the best performing algorithm([TD3](https://www.researchgate.net/profile/Wenfeng-Zheng/publication/341648433_Twin-Delayed_DDPG_A_Deep_Reinforcement_Learning_Technique_to_Model_a_Continuous_Movement_of_an_Intelligent_Robot_Agent/links/5ed9ae3e92851c9c5e816d19/Twin-Delayed-DDPG-A-Deep-Reinforcement-Learning-Technique-to-Model-a-Continuous-Movement-of-an-Intelligent-Robot-Agent.pdf)) according to the [OpenAI gym Leaderboard](https://github.com/openai/gym/wiki/Leaderboard) for the OpenAI gym Environment ["Pendulum-v0"](https://gym.openai.com/envs/Pendulum-v0/) implemented by [Kanishk Navale](https://github.com/KanishkNavale) in a Multi Agent-manner, was [bugfixed](https://github.com/KanishkNavale/Cooperative-Deep-RL-Multi-Agents/issues/3) and modified: [Cooperative-Deep-RL-Multi-Agents](https://github.com/KanishkNavale/Cooperative-Deep-RL-Multi-Agents).
 
 To evaluate sample injection vs. the standard learning approach, 3 experiments were run.
 
