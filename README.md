@@ -49,7 +49,7 @@ Train a model from scratch with 1000 Episodes and create samples for almost perf
     - Create a new Folder in MultiAgentProfiling/data/ called *your experiment name2* 
     - Move the the created train logs from MultiAgentProfiling/data/ to MultiAgentProfiling/data/*your experiment name2* 
 
-### 3. Train the model for 20 Episodes with a steady probability of 50% per Episode to be sample injected. The reduce the probability of sample injecion to 10% until 300 total        Episodes of training are reached.
+### 3. Train the model for 20 Episodes with a steady probability of 50% per Episode to be sample injected. Then reduce the probability of sample injecion to 10% until 300 total        Episodes of training are reached.
     - in MultiAgentProfiling/train.py set:
         - use_predefined_actions_prob = 0
         - load_predefined_actions = False
