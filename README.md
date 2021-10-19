@@ -79,3 +79,4 @@ While all models in the end achieve the same training performance, one can tell 
 # TODO:
 - [ ] Benchmark sample injection vs supervised pre-training.
 - [ ] Test sample injection on a state of the art reinforcement algorithm in a more difficult environment like [Ant-v2](https://gym.openai.com/envs/Ant-v2/)
+- [ ] Apply an actor-critic algorithm on top, to decide per episode if to use sample injection
